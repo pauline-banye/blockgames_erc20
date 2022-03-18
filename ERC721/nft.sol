@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-    pragma solidity ^0.8.13;
+    pragma solidity ^0.8.12;
 
     import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
     import "@openzeppelin/contracts/access/Ownable.sol";
@@ -20,6 +20,7 @@
         Counters.Counter private _tokenIdCounter;
 
         constructor (string memory baseURI) ERC721("PaulynNFT", "PBEE") {
+            // "ipfs://QmbpMabSZbsspSxpMpcaNxrGSwqjb5DaVk9ycVsBAh67Ki/"
             _baseTokenURI = baseURI;
         }
 
