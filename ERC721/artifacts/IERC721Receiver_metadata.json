@@ -74,10 +74,11 @@
 	},
 	"sources": {
 		"ERC721/nft_flat.sol": {
-			"keccak256": "0x18cb6c552142b99760f64f0b1f354c8a51e568ddcfcc555e7a8e5d63f64ec665",
+			"keccak256": "0xef841d54d500df1051a2d8e8f316ca80ccd2e9fe0472ba06315da40e1bc4b3df",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://876745d5b85d0ef274400f25314d06068eaeef56b270ca96f3bc346eb252deba",
-				"dweb:/ipfs/QmacekgegFgk9grXef4qD9qmBS2ojK8bRVoqs6zqstR5nR"
+				"bzz-raw://a29b9365c137e93543d98f51198a32b73cd61e5b9a2ee44ee73ff18acfd27c68",
+				"dweb:/ipfs/QmZauipZvGvfKvRD6UmMZQ5YLHmdVG7x7Dc7UP9Q56fUmb"
 			]
 		}
 	},

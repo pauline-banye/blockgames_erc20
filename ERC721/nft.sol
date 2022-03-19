@@ -27,7 +27,7 @@
         function mintToken() public payable {
             require(tokenIds < maxTokenIds, "Supply of PaulynNFT maxed out");
             tokenIds += 1;
-            uint256 tokenIds = _tokenIdCounter.current();
+            tokenIds = _tokenIdCounter.current();
             _tokenIdCounter.increment();
             _safeMint(msg.sender, tokenIds);
         }

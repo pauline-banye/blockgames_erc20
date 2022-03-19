@@ -1,4 +1,4 @@
-
+// SPDX-License-Identifier: MIT
 // File: @openzeppelin/contracts/utils/Counters.sol
 
 
@@ -1383,7 +1383,7 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
         function mintToken() public payable {
             require(tokenIds < maxTokenIds, "Supply of PaulynNFT maxed out");
             tokenIds += 1;
-            uint256 tokenIds = _tokenIdCounter.current();
+            tokenIds = _tokenIdCounter.current();
             _tokenIdCounter.increment();
             _safeMint(msg.sender, tokenIds);
         }
