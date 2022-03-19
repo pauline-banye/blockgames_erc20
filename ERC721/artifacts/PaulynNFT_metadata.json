@@ -699,11 +699,11 @@
 			]
 		},
 		"ERC721/nft.sol": {
-			"keccak256": "0x9aad16ce64c7a7f444fac518b50fc54823081163e6a44efb2ca9061c7329ce65",
+			"keccak256": "0x9b5e98fb983e65769fec6e7a3adfb8445836f6bc35b67b1d465b786df7e55124",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f5a7a01b41e01b03f2a91e1e7fc0d906b78af5f4cf0cda3d55c43168f33fe92e",
-				"dweb:/ipfs/QmeUgrDr8uaEhPeacRVks2YagzpK8yEfVstZd4HEDRx1DZ"
+				"bzz-raw://d6d2b95e022bf314214bf124b25adcdbab1139cbd9c6b45ec60600abd0523ea7",
+				"dweb:/ipfs/QmNqkjp2h5oJ6TNnrEUtojZjwXc7bgGQuRwZF2bu6Gakct"
 			]
 		}
 	},

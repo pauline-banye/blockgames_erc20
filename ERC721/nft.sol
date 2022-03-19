@@ -1,17 +1,18 @@
 // SPDX-License-Identifier: MIT
-    pragma solidity ^0.8.12;
+    pragma solidity ^0.8.13;
 
     import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
     import "@openzeppelin/contracts/access/Ownable.sol";
     import "@openzeppelin/contracts/utils/Strings.sol";
     import "@openzeppelin/contracts/utils/Counters.sol";
+    import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
     contract PaulynNFT is ERC721Enumerable, Ownable {
         using Strings for uint256;
 
         string _baseTokenURI;
 
-        uint256 public maxTokenIds = 5;
+        uint256 public maxTokenIds = 6;
 
         uint256 public tokenIds;
 
@@ -20,7 +21,7 @@
         Counters.Counter private _tokenIdCounter;
 
         constructor (string memory baseURI) ERC721("PaulynNFT", "PBEE") {
-            // "ipfs://QmbpMabSZbsspSxpMpcaNxrGSwqjb5DaVk9ycVsBAh67Ki/"
+            // current metadata file "ipfs://Qmb5yC924NCHcK77RFTQr3QXeXZJsDzQPXmPEZjgfJSeJt/"
             _baseTokenURI = baseURI;
         }
 

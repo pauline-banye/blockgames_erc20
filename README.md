@@ -15,11 +15,11 @@ image2: https://ipfs.io/ipfs/QmdgCHUw1q2rvAUh1wqZxDaczTMvywnFscHXZp6Zj8Aprr
 
 
 MINTED NFTS
-https://testnets.opensea.io/assets/0x2e141d03a2a9fa56b321ee67494ed374ddfe605f/1/
-https://testnets.opensea.io/assets/0x2e141d03a2a9fa56b321ee67494ed374ddfe605f/2/
+https://testnets.opensea.io/assets/0xbd95c86e4c28b2206642b2dad3c28ba561cfe6c6/0
+https://testnets.opensea.io/assets/0xbd95c86e4c28b2206642b2dad3c28ba561cfe6c6/2
 
 
 VERIFIED CONTRACT ADDRESSES
-ERC20:
-ERC721:
+ERC20: https://rinkeby.etherscan.io/address/0x0123f9Fc74E55B3AE8A48216018d1eD78fb74126#code
+ERC721: https://rinkeby.etherscan.io/address/0x8CCD190ad6AD8d2345E4E0700364A5a23478F00b#code
 

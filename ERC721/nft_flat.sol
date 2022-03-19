@@ -1356,7 +1356,8 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
 // File: ERC721/nft.sol
 
 
-    pragma solidity ^0.8.12;
+    pragma solidity ^0.8.13;
+
 
 
 
@@ -1367,7 +1368,7 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
 
         string _baseTokenURI;
 
-        uint256 public maxTokenIds = 5;
+        uint256 public maxTokenIds = 6;
 
         uint256 public tokenIds;
 
@@ -1376,7 +1377,7 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
         Counters.Counter private _tokenIdCounter;
 
         constructor (string memory baseURI) ERC721("PaulynNFT", "PBEE") {
-            // "ipfs://QmbpMabSZbsspSxpMpcaNxrGSwqjb5DaVk9ycVsBAh67Ki/"
+            // "ipfs://Qmb5yC924NCHcK77RFTQr3QXeXZJsDzQPXmPEZjgfJSeJt/"
             _baseTokenURI = baseURI;
         }
 
